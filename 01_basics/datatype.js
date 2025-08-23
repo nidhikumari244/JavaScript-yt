@@ -19,4 +19,7 @@ let state;
     // symbol => unique
 // object 
 
-console.log(typeof age);
+console.log(typeof "age");
+console.log(typeof null); // Object
+console.log(typeof undefined);  // undefined
+console.log(typeof "nidhI");

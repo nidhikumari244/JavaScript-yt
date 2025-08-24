@@ -38,3 +38,19 @@ console.log(typeof myFunction);     //r.t.: function
 console.log(typeof anotherId);       // R.T: symbol
 console.log(typeof heroes);           // R.t: object
 
+
+// ++++++++++++
+
+//  memory.....
+
+  // Stack (primitive),  Heap (Non - primitive)
+
+
+  let myName ="Nidhi Kumari"
+
+  let anothername=myName
+  anothername = "hey its me NIDHI"
+
+  console.log(myName);
+  console.log(anothername);
+  

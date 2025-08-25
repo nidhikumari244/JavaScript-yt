@@ -43,7 +43,7 @@ console.log(typeof heroes);           // R.t: object
 
 //  memory.....
 
-  // Stack (primitive),  Heap (Non - primitive)
+  // Stack (primitive)   ....Number,booleans...etc.,  Heap (Non - primitive)
 
 
   let myName ="Nidhi Kumari"
@@ -53,4 +53,17 @@ console.log(typeof heroes);           // R.t: object
 
   console.log(myName);
   console.log(anothername);
-  
+
+  let userOne = {
+    email: "nidhigoogle.com",
+    upi: "nidhi@ybl"
+
+  }
+
+  let userTwo = userOne
+
+  userTwo.email="userNidhi@google.com"
+
+  console.log(userOne.email);
+  console.log(userTwo.email);
+

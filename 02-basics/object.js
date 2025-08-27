@@ -26,7 +26,7 @@ console.log( typeof JsUser[mySys]);
 
 
 JsUser.email="nidhimicroshoft@gamil.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.email = "nidhi@microsoft.com"
 console.log(JsUser);
 
@@ -35,4 +35,10 @@ JsUser.greeting = function()
         console.log("nidhi js user");
 
     }
-console.log(JsUser.greeting);
+    JsUser.greetingTwo = function()
+    {
+        console.log(`nidhi js user,${this.name}`);
+
+    }
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());

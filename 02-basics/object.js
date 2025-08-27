@@ -25,4 +25,14 @@ console.log(JsUser["full name"]);
 console.log( typeof JsUser[mySys]);
 
 
+JsUser.email="nidhimicroshoft@gamil.com"
+Object.freeze(JsUser)
+JsUser.email = "nidhi@microsoft.com"
+console.log(JsUser);
 
+JsUser.greeting = function()
+    {
+        console.log("nidhi js user");
+
+    }
+console.log(JsUser.greeting);

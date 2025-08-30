@@ -73,3 +73,14 @@ console.log(instructor);
 //     navbar( company ="nidhi")
 // }
 
+// {
+//     "name" : "ndh",
+//     "coursename": "js in yt",
+//     "price":"yt free hai"
+// }
+
+[
+    {},
+    {},
+    {}
+]

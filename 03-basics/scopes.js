@@ -50,8 +50,9 @@ function addone(num){
 
 }
 
-
+addTwo(6)  // this is not work same as previous one 
 const addTwo = function(num){
     return num + 2
 }
 addTwo(6)
+//...

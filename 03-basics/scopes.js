@@ -27,4 +27,31 @@ two()  // if we comment this line it will not execute
 
 }
 
-one()
+//one()
+
+if(true){
+    const username ="nidhi"
+    if(username === "nidhi")
+    {
+        const website =" yyt"
+        //console.log(username+website);
+        
+    }
+//  console.log(website); //not working
+}
+//console.log(username);  //not working
+
+
+//++++++++++++++++++++++++
+
+addone(6)
+function addone(num){
+    return num + 1
+
+}
+
+addTwo(6)
+const addTwo = function(num){
+    return num + 2
+}
+
